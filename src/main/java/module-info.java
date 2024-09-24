@@ -7,4 +7,6 @@ module com.example.javafxsemester {
     exports Demo;
     opens RNG to javafx.fxml;
     exports RNG;
+    opens Quiz2 to javafx.fxml;
+    exports Quiz2;
 }
