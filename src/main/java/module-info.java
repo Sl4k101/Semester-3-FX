@@ -3,6 +3,8 @@ module com.example.javafxsemester {
     requires javafx.fxml;
 
 
-    opens com.example.javafx to javafx.fxml;
-    exports com.example.javafx;
+    opens Demo to javafx.fxml;
+    exports Demo;
+    opens RNG to javafx.fxml;
+    exports RNG;
 }
